@@ -1,0 +1,17 @@
+[guacamole_recipe]
+
+name = "recipe.maker"
+dynamic = ["version"]
+authors = [{ellington = "ewcjchen@uw.edu"}]
+description = "writes out recipe step from input"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+"numpy>=1.25",
+"pandas>=2.1",
+]
+classifiers = [
+"Programming Language :: Python :: 3",
+"License :: OSI Approved :: MIT License",
+"Operating System :: OS Independent",
+]
